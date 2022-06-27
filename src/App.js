@@ -14,18 +14,16 @@ import {HashRouter as Router, Route, Routes} from "react-router-dom";
 
 function App() {
     return (
-        <div>
+        <div className="App">
             <Router basename={process.env.PUBLIC_URL}>
-                <div className="App">
                     <Navbar />
                     <Routes>
-                        <Route path="/" element={<Home />} />
                         <Route path="/projects" element={<Projects />} />
                         <Route path="/project/:id" element = {<ProjectDisplay />} />
                         <Route path="/experience" element={<Experience />} />
+                        <Route exact path="/" element={<Home />} />
                     </Routes>
                     <Footer />
-                </div>
             </Router>
         </div>
 
