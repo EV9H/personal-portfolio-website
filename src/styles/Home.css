@@ -1,9 +1,46 @@
+
+#entry-animation {
+    animation: redshift 2s, sliding 4s;
+    animation-iteration-count: 1;
+}
+
+#enter {
+    animation: appear 4s;
+    animation-iteration-count: 1;
+}
+
+@keyframes redshift {
+    0% {text-shadow: -5px -5px 10px #7700a6;}
+}
+
+@keyframes sliding {
+    0% {
+        transform: translateX(-10px) translateY(-10px) scale(0.9);
+    }
+    100% {
+        transform: translateX(0) translateY(0) scale(1);
+    }
+}
+
+@keyframes appear{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
 .home {
     width: 100%;
     align-items: center;
-    font-family: "Arial", sans-serif;
-    color: #3e497a;
+    font-family: "Helvetica", sans-serif;
+    color: #29132e;
 }
+
+
 
 .about {
     width: 100%;
@@ -13,25 +50,42 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #21325e;
-    color: #f0f0f0;
+    background: linear-gradient(#29132e, #321450);
+    background-color: #29132e;
+    color: #f887ff;
 }
 
 .about h2 {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 80px;
-    color: #e9d35b;
-    height: 50px;
+    font-family: "LeagueSpartan", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 65px;
+    color: #01f7ff;
+    height: 60px;
+    text-shadow: 2px 4px 4px #ff2a6d;
 }
 
+
+
 .about .prompt {
+    color: #01f7ff;
+    font-family: "LeagueSpartan", sans-serif;
     width: 40%;
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+
+.about .prompt .mini-prompt{
+    font-family: Arial, sans-serif;
+    color: #438ab6;
+    height: 40px;
+    font-style: italic;
+    font-size:  14px;
+    transform: translateY(calc(0% + 10px) ) translateX(calc(100% - 100px));
 }
 .prompt svg {
-    font-size: 60px;
-    margin: 5px;
-    color: white;
+    font-size: 20px;
+    margin: 15px;
+    color: #ff2a6d;
 }
 
 .skills {

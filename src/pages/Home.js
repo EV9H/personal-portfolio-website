@@ -8,14 +8,16 @@ function Home(){
     return(
         <div className="home">
             <div className = "about">
-                <h2> Hi, My Name is Haozhou</h2>
+                <h2 id = "entry-animation"> Haozhou Huang</h2>
                 <div className="prompt">
-                    <p>
-                        A computer science student at NYU with passion for creating and learning.
-                    </p>
-                    <GithubIcon/>
-                    <LinkedInIcon/>
-                    <EmailIcon/>
+                    <h3 id = "enter"> Portfolio Site</h3>
+                    {/*<p className= "mini-prompt"> 「 Learning, Coping, Creating 」</p>*/}
+                    <div className= "icons" id = "enter">
+                        <GithubIcon/>
+                        <LinkedInIcon/>
+                        <EmailIcon/>
+                    </div>
+
                 </div>
             </div>
 

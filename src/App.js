@@ -11,6 +11,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import {HashRouter as Router, Route, Routes} from "react-router-dom";
 
+import './fonts/LeagueSpartan-Bold.otf';
 
 function App() {
     return (

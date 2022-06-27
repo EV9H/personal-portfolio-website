@@ -1,3 +1,9 @@
+@font-face {
+  font-family: LeagueSpartan;
+  src: local("LeagueSpartan"), url("./fonts/LeagueSpartan-Bold.otf") format("truetype");
+  font-weight: bold;
+}
+
 .App {
   width: 100%;
   height: auto;

@@ -1,7 +1,7 @@
 .navbar {
     width: 100%;
     height: 100px;
-    background: #21325e;
+    background: #29132e;
 }
 
 .links {
@@ -13,11 +13,28 @@
     color: white;
 }
 
+@keyframes appear {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
 .navbar a {
-    color: white;
-    text-decoration: none;
+    animation: appear 4s;
+    font-family: Helvetica, sans-serif;
+    color: #ff2a6d;
+    text-decoration: #860029;
+    text-decoration-style: solid;
+    text-decoration-line: overline;
+    text-decoration-thickness: 2px;
     margin: 20px;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .toggleButton {
