@@ -18,7 +18,7 @@
 }
 
 .project p {
-    font-size: 40px;
+    font-size: 20px;
     color: #3e497a;
 }
 
@@ -26,3 +26,20 @@
     font-size: 60px;
     color: #3e497a;
 }
+
+.backButton{
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+.backIcon{
+
+}
+.icons svg {
+    margin: 0.5em;
+    font-size: 50px;
+    cursor: pointer;
+}
+

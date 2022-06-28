@@ -11,11 +11,14 @@ import Footer from "./components/Footer";
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
 import './fonts/LeagueSpartan-Bold.otf';
+import Navbar from "./components/Navbar";
 
 function App() {
     return (
         <div className="App">
             <Router basename={process.env.PUBLIC_URL}>
+
+
                     <Routes>
                         <Route path="/projects" element={<Projects />} />
                         <Route path="/project/:id" element = {<ProjectDisplay />} />

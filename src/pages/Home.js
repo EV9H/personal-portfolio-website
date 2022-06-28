@@ -9,12 +9,12 @@ import Navbar from "../components/Navbar";
 function Home(){
     return(
         <div className="home">
+            <Navbar/>
             <div className = "about">
-                <div className= "enter">
-                    <Navbar/>
-                </div>
+                {/*<div className="enter" id = "nav"> <Navbar/></div>*/}
 
                 <h2 id = "entry-animation"> Haozhou Huang</h2>
+
                 <div className="prompt">
                     <h3 className= "enter"> Portfolio Site</h3>
                     {/*<p className= "mini-prompt"> 「 Learning, Coping, Creating 」</p>*/}
@@ -41,11 +41,11 @@ function Home(){
                 <ol className="list">
                     <li className="item">
                         <h2>Front-end</h2>
-                        <span>IDK</span>
+                        <span>HTML, CSS, ReactJS,ReactNative </span>
                     </li>
                     <li className="item">
                         <h2>Back-end</h2>
-                        <span>IDK</span>
+                        <span>MySQL</span>
                     </li>
                     <li className="item">
                         <h2>Languages</h2>

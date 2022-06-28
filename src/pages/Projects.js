@@ -7,7 +7,7 @@ import Navbar from "../components/Navbar";
 function Projects() {
     return (
         <div className="projects">
-            <Navbar />
+            <Navbar/>
             <h1> My Personal Projects</h1>
             <div className="projectList">
                 {projectList.map((project, idx) => {

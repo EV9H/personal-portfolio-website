@@ -8,7 +8,7 @@ import Navbar from "../components/Navbar";
 
 function Experience(){
     return <div className="experience">
-        <Navbar />
+        <Navbar/>
         <VerticalTimeline lineColor = "#3e497a">
             <VerticalTimelineElement
                 className="vertical-timeline-element--education"
