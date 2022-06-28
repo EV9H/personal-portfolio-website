@@ -4,7 +4,7 @@
     animation-iteration-count: 1;
 }
 
-#enter {
+.enter {
     animation: appear 4s;
     animation-iteration-count: 1;
 }
@@ -44,48 +44,55 @@
 
 .about {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(100vh);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: linear-gradient(#29132e, #321450);
-    background-color: #29132e;
-    color: #f887ff;
+    /*background: linear-gradient(#29132e, #321450);
+    background-color: #29132e;*/
+    background-image: url("../assets/homebg.png");
+    color: #FFF;
 }
 
 .about h2 {
     font-family: "LeagueSpartan", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 65px;
-    color: #01f7ff;
+    font-size: 80px;
+    color: #FFF;
     height: 60px;
-    text-shadow: 2px 4px 4px #ff2a6d;
+    text-shadow: 2px 4px 4px #618930;
 }
 
+.externalLinkButton {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+.icon1 {color : white;}
+.prompt {
 
-
-.about .prompt {
-    color: #01f7ff;
     font-family: "LeagueSpartan", sans-serif;
     width: 40%;
     font-size: 20px;
     font-weight: lighter;
 
+
 }
 
 .about .prompt .mini-prompt{
     font-family: Arial, sans-serif;
-    color: #438ab6;
     height: 40px;
     font-style: italic;
     font-size:  14px;
     transform: translateY(calc(0% + 10px) ) translateX(calc(100% - 100px));
 }
 .prompt svg {
+
     font-size: 20px;
     margin: 15px;
-    color: #ff2a6d;
 }
 
 .skills {

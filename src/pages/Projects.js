@@ -2,10 +2,12 @@ import React from "react";
 import ProjectItem from "../components/Projectitem"
 import "../styles/Projects.css"
 import { projectList} from '../helpers/ProjectList'
+import Navbar from "../components/Navbar";
 
 function Projects() {
     return (
         <div className="projects">
+            <Navbar />
             <h1> My Personal Projects</h1>
             <div className="projectList">
                 {projectList.map((project, idx) => {

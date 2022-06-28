@@ -1,7 +1,7 @@
 .navbar {
     width: 100%;
-    height: 100px;
-    background: #29132e;
+    height: 30px;
+    background-image: url("../assets/homebg.png");
 }
 
 .links {
@@ -13,28 +13,18 @@
     color: white;
 }
 
-@keyframes appear {
-    0%{
-        opacity: 0;
-    }
-    50%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 100%;
-    }
-}
 
 .navbar a {
-    animation: appear 4s;
     font-family: Helvetica, sans-serif;
-    color: #ff2a6d;
-    text-decoration: #860029;
+    color: #FFF;
+    text-decoration: #87C232;
     text-decoration-style: solid;
     text-decoration-line: overline;
     text-decoration-thickness: 2px;
-    margin: 20px;
+    margin: 50px;
     font-size: 15px;
+    text-shadow: 0 0 10px aquamarine;
+
 }
 
 .toggleButton {
