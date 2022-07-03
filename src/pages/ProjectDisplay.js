@@ -15,10 +15,9 @@ function ProjectDisplay(){
         <div className="project">
 
             <h1>{project.name}</h1>
-            <img src={project.image} alt=""/>
+            <img src={project.image} alt=""  style = {{height: '80%'}} />
             <p> {project.skill}</p>
             <div className = "icons">
-
                 <button className = "externalLinkButton" onClick = { () => {window.open(project.link, "_blank");}} >
                     <GitHubIcon/>
                 </button>

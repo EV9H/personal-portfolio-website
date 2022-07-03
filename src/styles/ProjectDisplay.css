@@ -13,8 +13,8 @@
     font-size: 35px;
 }
 .project img {
-    width: 700px;
     border-radius: 10px;
+    object-fit: contain;
 }
 
 .project p {
