@@ -1,5 +1,5 @@
 import p1 from '../assets/p1.png'
-import randomPickerPic from '../assets/rp.png'
+import randomPickerPic from '../assets/rpp.png'
 import regression from '../assets/regression.png'
 import SqDoku from '../assets/SqDoku.png'
 export const projectList= [
@@ -13,7 +13,7 @@ export const projectList= [
     {
         name:  "Random Picker App",
         image: randomPickerPic,
-        skill: "React Native, expo",
+        skill: "Framework: React Native, expo. For us when difficulty choosing between things. Storage, edit, preset template enabled. ",
         link: "https://github.com/EV9H/Randomer",
 
     },
