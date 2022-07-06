@@ -1,5 +1,5 @@
 import p1 from '../assets/p1.png'
-import randomPickerPic from '../assets/rpp.png'
+import ChoicePhobiaV1 from '../assets/ChoicePhobiaV1.png'
 import regression from '../assets/regression.png'
 import SqDoku from '../assets/SqDoku.png'
 export const projectList= [
@@ -11,10 +11,10 @@ export const projectList= [
 
     },
     {
-        name:  "Random Picker App",
-        image: randomPickerPic,
-        skill: "Framework: React Native, expo. For us when difficulty choosing between things. Storage, edit, preset template enabled. ",
-        link: "https://github.com/EV9H/Randomer",
+        name:  "Choice Phobia",
+        image: ChoicePhobiaV1,
+        skill: "Framework: React Native, expo. For solving difficulty choosing between options. Storage, edit enabled. See github for video presentation.",
+        link: "https://github.com/EV9H/ChoicePhobia",
 
     },
 
